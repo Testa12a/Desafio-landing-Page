@@ -1,0 +1,119 @@
+*{
+    font-family: 'inter';
+    margin: 0px;}
+
+#partesuperior{
+  background-color: #303030;
+  color:#FFFFFF;
+  width: 1440px;
+  height: 475px;
+  left: 0px;
+  top: 0px; 
+}
+
+#titulo{
+    width: 1024px;
+    height: 72px;
+    left: 62px;
+    top: 206px;
+    position: absolute;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 72px;
+}
+
+#paragrafo{
+   width: 1024px;
+   height: 28px;
+   top: 298px;
+   left: 62px;
+   position: absolute;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 28px;
+}
+
+#parteinformação{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background-color:#F9F9F9 ;
+    /* parte margin alterações no texto*/
+    width: 1440px;
+    height: 229px;
+}
+/* parte de imagens informações segunda parte*/
+#p850{
+    margin: 96px 0px 66px 150px
+}
+
+#p40{
+    margin: 96px 0px 66px 0px;
+}
+
+#p2000{
+    margin: 96px 64px 66px 0px;
+}
+/*inicio da terceira parte com imagem grande*/
+#resumoinformal{
+    display: flex;
+    align-items: center;
+    
+}
+
+#textoinformativo{
+    margin: 0px 25px 0px 100px;
+    width: 735px;
+
+}
+
+#img{
+    border-radius: 30px;
+    margin: 80px 60px 0px 25px;
+}
+/* inicio da parte final da Landing Page*/
+#partefinal{
+    background-color:#303030;
+    color: #FFFFFF;
+    width: 1440px;
+    height: 638px;  
+    text-align: center;
+}
+#textoformulario{
+    text-align: center;
+    margin: 80px 0px 0px 0px;
+    padding: 87px;
+}
+
+input{
+    width: 450px;
+    height: 50px;
+    background-color:#FFFFFF;
+    border-radius: 10px;
+    border: 0px;
+    margin: 25px;
+    padding-left: 20px;
+    font-family: 'raleway';
+    font-size: 18px;
+}
+
+button{
+    width: 286px;
+    height: 68px;
+    font-family:'raleway';
+    font-size: 20px;
+    background-color:#C07212;
+    border-radius: 10px;
+    margin: 25px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+button:hover{
+    background-color:#f1a241;
+    color: #303030;
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 20px #f3fcfc3a;
+    transition-duration: 0.5s;
+}
